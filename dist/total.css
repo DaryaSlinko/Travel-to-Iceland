@@ -1645,7 +1645,8 @@ body {
     height: 275px;
   }
   .tour-plan .mainContainer .white-bg-square img {
-    left: 50px;
+    top: 22px;
+    left: 30px;
   }
   .reviews .review-slider .slider-container .review img {
     max-height: 264px;
