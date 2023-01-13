@@ -1,0 +1,1834 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "acquestscript";
+  src: url("../fonts/acquestscript.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Muller-Regular";
+  src: url("../fonts/MullerRegular.ttf") format("truetype");
+  src: url("../fonts/MullerRegular.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat-Regular, sans-serif;
+}
+.mainContainer {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  padding: 35px 0 25px 0;
+}
+.header .mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.header-menu ul {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+}
+.header-menu a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #2c2c2c;
+  transition: 0.3s;
+}
+.header-menu a:hover {
+  text-shadow: 1px 1px 20px #2eb9e1;
+  transition: 0.3s;
+}
+.represent {
+  padding-bottom: 319px;
+}
+.represent .mainContainer {
+  position: relative;
+}
+.represent .mainContainer .title {
+  font-size: 60px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #2c2c2c;
+  margin: 121px 0 0 -5px;
+}
+.represent .mainContainer .title span {
+  color: white;
+}
+.represent .mainContainer .under-title {
+  font-size: 35px;
+  color: #2c2c2c;
+  margin-top: 35px;
+}
+.first-block-pic-bg {
+  position: absolute;
+  top: -121px;
+  left: 278px;
+  max-width: 100%;
+  z-index: -5;
+}
+.for-book-btn {
+  background-color: #2c2c2c;
+  width: 220px;
+  height: 59px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  border: none;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Montserrat-Medium", sans-serif;
+  padding: 0 22px;
+  margin-top: 61px;
+  margin-right: 105px;
+  float: left;
+  transition: 0.3s;
+}
+.for-book-btn:hover {
+  transform: scale(1.18);
+  transition: 0.3s;
+}
+.for-book-btn svg {
+  display: flex;
+  align-items: center;
+  fill: white;
+  width: 13.5px;
+}
+.to-watch-btn {
+  margin-top: 61px;
+  min-width: 220px;
+  height: 59px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.to-watch-btn:hover {
+  transform: scale(1.18);
+  transition: 0.3s;
+}
+.to-watch-btn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 23px 22px 23px 26px;
+}
+.to-watch-btn div svg {
+  fill: white;
+  width: 11px;
+}
+.way1 {
+  width: 50%;
+  position: absolute;
+  left: 709px;
+  top: 183px;
+}
+.way1 .date {
+  max-width: 115px;
+  font-size: 14px;
+  font-family: "Montserrat-Medium", sans-serif;
+  color: #2c2c2c;
+  line-height: 1.5;
+  position: absolute;
+  top: 128px;
+  left: -2px;
+  max-width: 150px;
+}
+.way1 .price {
+  max-width: 115px;
+  font-size: 14px;
+  font-family: "Montserrat-Medium", sans-serif;
+  color: #2c2c2c;
+  line-height: 1.5;
+  position: absolute;
+  top: -28px;
+  left: 82px;
+}
+.way1 .places-left {
+  max-width: 115px;
+  font-size: 14px;
+  font-family: "Montserrat-Medium", sans-serif;
+  color: #2c2c2c;
+  line-height: 1.5;
+  position: absolute;
+  top: -50px;
+  left: 257px;
+}
+.about-iceland {
+  background-color: #2c2c2c;
+  padding: 125px 0 90px 0;
+}
+.about-iceland .mainContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.about-iceland .mainContainer .iceland-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.about-iceland .mainContainer .iceland-under-title {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.438;
+  max-width: 432px;
+}
+.white-bg-square {
+  background-color: #ffffff;
+  width: 400px;
+  height: 448px;
+}
+.white-bg-square img {
+  position: relative;
+  top: 72px;
+  left: 42px;
+}
+.reasons-to-go {
+  background-color: #2c2c2c;
+  padding: 90px 0;
+}
+.reasons-to-go .way2 {
+  position: relative;
+}
+.reasons-to-go .way2 svg {
+  position: relative;
+  left: -405px;
+  max-width: 100%;
+  overflow: visible;
+}
+.reasons-to-go .reason-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 565px;
+}
+.aReason {
+  max-width: 240px;
+  position: absolute;
+  transition: 0.3s;
+}
+.aReason:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.aReason:hover .aReason-num {
+  color: white;
+  border: 1px solid white;
+  background-color: #2c2c2c;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.aReason .aReason-num {
+  font-size: 30px;
+  color: #2c2c2c;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+}
+.aReason .aReason-title {
+  font-size: 18px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.aReason .aReason-under-title {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 21px;
+}
+.aReason1 {
+  top: 50px;
+  left: 0;
+}
+.aReason1 .aReason-num {
+  margin-bottom: 35px;
+}
+.aReason2 {
+  top: 330px;
+  left: 310px;
+}
+.aReason2 .aReason-num {
+  margin-top: 35px;
+}
+.aReason3 {
+  top: 50px;
+  left: 615px;
+}
+.aReason3 .aReason-num {
+  margin-bottom: 35px;
+}
+.aReason4 {
+  top: 340px;
+  left: 884px;
+}
+.aReason4 .aReason-num {
+  margin-top: 35px;
+}
+.amazing-places {
+  background-color: #2c2c2c;
+  padding: 90px 0 60px 0;
+}
+.amazing-places .places-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 61px;
+}
+.amazing-places .mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.map {
+  position: relative;
+}
+.map span {
+  position: absolute;
+  font-size: 30px;
+  font-family: "AcquestScript", sans-serif;
+  color: #2c2c2c;
+  left: 280px;
+  top: 240px;
+  z-index: 302;
+}
+.map svg {
+  position: absolute;
+  width: 108px;
+  height: 181px;
+  z-index: 15;
+  left: 87px;
+  top: 157px;
+}
+.map div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #2c2c2c;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  color: #ffffff;
+  left: 87px;
+  top: 157px;
+  z-index: 100;
+}
+.map .map-point {
+  cursor: pointer;
+}
+.map .map-point1 {
+  left: 76px;
+  top: 144px;
+}
+.map .map-point2 {
+  left: 138px;
+  top: 229px;
+}
+.map .map-point3 {
+  left: 94px;
+  top: 270px;
+}
+.map .map-point4 {
+  left: 120px;
+  top: 320px;
+}
+.map .activeMapPoint {
+  background-color: #00a8d2;
+  width: 30px;
+  height: 30px;
+}
+.map .map-point5 {
+  left: 196px;
+  top: 321px;
+}
+.about-place {
+  max-width: 448px;
+  display: none;
+}
+.about-place.activeItem {
+  display: block;
+}
+.about-place .about-place-title {
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.about-place .about-place-under-title {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.438;
+  margin-bottom: 25px;
+  max-width: 446px;
+}
+.about-place .white-bg-square {
+  position: relative;
+  width: 336px;
+  height: 325px;
+  float: right;
+}
+.about-place .white-bg-square img {
+  max-width: 363px;
+  position: absolute;
+  top: 35px;
+  left: -109px;
+}
+.travel-video {
+  background-color: #2c2c2c;
+  padding: 55px 0 70px 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.travel-video img {
+  max-width: 100%;
+}
+.travel-video .iceland-video {
+  position: absolute;
+  left: calc(50% - 555px);
+  width: 1110px;
+  height: 700px;
+  display: none;
+}
+.travel-video .to-watch-btn {
+  position: absolute;
+  left: calc(50% - 120px);
+  top: calc(50% - 30px);
+  z-index: 20;
+  max-width: 330px;
+  text-align: left;
+  gap: 20px;
+  margin: 0;
+}
+.travel-video .to-watch-btn div {
+  padding: 32px 31px 31px 35px;
+}
+.travel-video .to-watch-btn div svg {
+  width: 14px;
+}
+.tour-plan {
+  background-color: #2c2c2c;
+  padding: 55px 0 90px 0;
+}
+.tour-plan .tour-plan-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.tour-plan .mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-plan .mainContainer .white-bg-square {
+  width: 400px;
+  height: 448px;
+}
+.tour-plan .mainContainer .white-bg-square img {
+  position: relative;
+  top: 34px;
+  left: 78px;
+  max-width: 400px;
+}
+.tour-program-item {
+  max-width: 470px;
+  height: 274px;
+  margin-bottom: 56px;
+}
+.tour-program-item .tour-program-day {
+  display: block;
+  font-size: 25px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+.tour-program-item .tour-program-day span {
+  color: #a9a4a4;
+  font-size: 15px;
+}
+.tour-program-item .tour-program-title {
+  display: block;
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.tour-program-item .tour-program-info {
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+}
+.slider__controls {
+  display: flex;
+  gap: 22px;
+}
+.slider__controls div {
+  border: 1px solid white;
+  padding: 18px;
+  cursor: pointer;
+}
+.slider__controls div svg {
+  fill: white;
+  width: 16px;
+}
+.slider-container div {
+  display: inline-block;
+  display: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.slider-container div.active {
+  display: inline-block;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.tour-program-download {
+  display: flex;
+  align-items: end;
+  text-decoration: none;
+  margin-top: 58px;
+  height: 25px;
+  transition: 0.3s;
+}
+.tour-program-download:hover {
+  text-shadow: 0 0 20px white;
+  transition: 0.3s;
+  transform: translateX(30px) scale(1.3);
+}
+.tour-program-download span {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 15px;
+  border-bottom: 1px solid white;
+}
+.tour-program-download img {
+  display: inline-block;
+  text-decoration: none;
+}
+.reviews {
+  padding: 90px 0;
+  background-color: #2c2c2c;
+}
+.reviews .reviews-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.review-slider {
+  position: relative;
+  background-color: white;
+}
+.review .reviewer-name {
+  display: block;
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #2c2c2c;
+  margin-bottom: 25px;
+}
+.review .number-of-reviewer {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #2c2c2c;
+  margin-bottom: 36px;
+}
+.review .reviewer-opinion {
+  display: block;
+  font-size: 16px;
+  color: #2c2c2c;
+  line-height: 1.438;
+  max-width: 445px;
+}
+.review-slider {
+  box-sizing: unset;
+  padding: 55px;
+  max-height: 400px;
+}
+.review-slider .slider-container .review {
+  background-color: #ffffff;
+  margin-bottom: 130px;
+  max-width: 100%;
+  display: inline-block;
+  display: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.review-slider .slider-container .review .reviewer-opinion {
+  height: 133px;
+}
+.review-slider .slider-container .review img {
+  position: absolute;
+  right: 55px;
+  top: 55px;
+  max-height: 400px;
+  max-width: 400px;
+}
+.review-slider .slider-container .review.active {
+  display: inline-block;
+  -webkit-animation-name: fadeInReview;
+  animation-name: fadeInReview;
+}
+.slider__controls-review {
+  display: flex;
+  gap: 6px;
+  position: relative;
+  bottom: 33px;
+  left: 0;
+}
+.slider__controls-review div {
+  border: 1px solid #2c2c2c;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.slider__controls-review div svg {
+  fill: #2c2c2c;
+  width: 16px;
+}
+@-webkit-keyframes fadeInReview {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInReview {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.photo-galery {
+  padding: 90px 0;
+  background-color: #2c2c2c;
+}
+.photo-galery .photo-galery-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.photo-galery-slider {
+  position: relative;
+}
+.photo-galery-slider .carousel-indicators button {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.photo-galery-slider .carousel-indicators button.active {
+  background-color: white;
+}
+.carousel-inner {
+  height: 380px;
+  max-width: 100%;
+}
+.carousel-inner .carousel-item {
+  position: relative;
+  max-width: 100%;
+}
+.carousel-inner .carousel-item .one {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  max-width: 328px;
+  max-height: 290px;
+}
+.carousel-inner .carousel-item .two {
+  position: absolute;
+  max-width: 147px;
+  max-height: 126px;
+  left: 369px;
+  top: 0;
+}
+.carousel-inner .carousel-item .three {
+  position: absolute;
+  left: 558px;
+  top: 21px;
+  max-width: 208px;
+  max-height: 145px;
+}
+.carousel-inner .carousel-item .four {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 285px;
+  max-height: 380px;
+}
+.carousel-inner .carousel-item .five {
+  position: absolute;
+  left: 425px;
+  top: 204px;
+  max-width: 298px;
+  max-height: 167px;
+}
+.slider__controls-gallery {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.slider__controls-gallery .carousel-control-next-icon,
+.slider__controls-gallery .carousel-control-prev-icon {
+  width: 18px;
+}
+.slider__controls-gallery button {
+  align-items: end;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slider__controls-gallery .carousel-indicators {
+  margin: 0;
+  gap: 10px;
+  position: relative;
+}
+.for-booking {
+  background-image: url("../images/mountBookingBG.png");
+  background-position: center;
+  background-size: cover;
+  height: 604px;
+  padding: 89px 0 125px 0;
+}
+.for-booking .for-booking-title {
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.for-booking .booking-journey {
+  max-width: 336px;
+  margin: 0 auto;
+}
+.for-booking .booking-journey label {
+  display: block;
+  font-size: 16px;
+  font-family: "Muller-Regular", sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.for-booking .booking-journey .for-radio-inputs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.for-booking .booking-journey .for-radio-inputs .radioInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: unset;
+}
+.for-booking .booking-journey div:not(:last-child) {
+  margin-bottom: 20px;
+}
+.for-booking .booking-journey div:not(:last-child) .input-text {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 17px;
+  background: transparent;
+  max-width: 336px;
+  height: 50px;
+  border-radius: unset;
+}
+.for-booking .booking-journey div:not(:last-child) .input-text::placeholder {
+  font-size: 16px;
+  color: #ffffff;
+}
+.for-booking .booking-journey button {
+  border: none;
+  background-color: transparent;
+  margin-top: 20px;
+  width: 336px;
+  height: 50px;
+  margin-bottom: unset;
+}
+.for-booking .booking-journey button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.for-booking .booking-journey button .cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+.for-booking .booking-journey button .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 54px;
+  height: 54px;
+  transition: all 0.3s ease;
+}
+.for-booking .booking-journey button .cta span {
+  font-family: "Montserrat-Medium", sans-serif;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  transition: all 0.5s ease;
+}
+.for-booking .booking-journey button .cta:hover span {
+  color: black;
+}
+.for-booking .booking-journey button .cta:hover:before {
+  width: 100%;
+  background: #ffffff;
+}
+.for-booking .booking-journey button .cta:active {
+  transform: scale(0.96);
+}
+.footer {
+  padding: 28px 0 29px 0;
+}
+.footer .mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .mainContainer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.footer .mainContainer .social-networks {
+  display: flex;
+  gap: 26px;
+}
+.footer .mainContainer .social-networks a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: #2c2c2c;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.footer .mainContainer .social-networks a:hover {
+  opacity: 90%;
+  transition: 0.3s;
+}
+.footer .mainContainer .social-networks a svg {
+  width: 29px;
+  fill: white;
+  transition: 0.3s;
+}
+.footer .mainContainer .social-networks a svg:hover {
+  opacity: 90%;
+  transition: 0.3s;
+}
+.footer .mainContainer .social-networks a .vk {
+  fill: #2c2c2c;
+  background-color: white;
+  width: 45px;
+}
+.footer .mainContainer .social-networks a .telegram {
+  fill: #2c2c2c;
+  background-color: white;
+  width: 50px;
+}
+.iceland-title.iceland-title2 {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
+.svg-for-Mobile {
+  display: none;
+}
+.white-bg-square2 {
+  display: none;
+}
+.way2FirstBlock {
+  display: none;
+}
+.header-menu.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00a8d2;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+}
+.header-menu.open .close {
+  display: block;
+  fill: white;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.header-menu.open ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+  gap: 70px;
+}
+.header-menu.open ul li a {
+  font-size: 40px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #ffffff;
+}
+.close {
+  display: none;
+}
+.loader {
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #5d0a5d;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.success-order {
+  background-color: #FFFFFF;
+  display: none;
+  flex-direction: column;
+  z-index: 200;
+  width: 555px;
+  border: 1px solid white;
+  font-size: 25px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #ffffff;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.success-order .svg-line {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.success-order .svg-line img {
+  position: absolute;
+  top: 43px;
+  left: calc(50% - 15px);
+}
+.success-order .title-tanks {
+  font-size: 25px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  color: #2c2c2c;
+  margin-top: 76px;
+  margin-bottom: 30px;
+}
+.success-order .under-title-tanks {
+  font-size: 14px;
+  color: #2c2c2c;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 350px;
+  margin-bottom: 60px;
+}
+.success-order #btn-back-to-main {
+  background-color: #2c2c2c;
+  width: 230px;
+  height: 49px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 45px;
+}
+.success-order .close-success-order {
+  display: block;
+  fill: black;
+  width: 12px;
+  position: absolute;
+  top: 14px;
+  right: 13px;
+}
+.invalid-tooltip {
+  top: 43px;
+  color: #dc3545;
+  background-color: transparent;
+}
+.for-people.invalid-tooltip {
+  top: 33px;
+}
+@media screen and (max-width: 1730px) {
+  .represent {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mainContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .aReason1 {
+    top: 60px;
+    left: 35px;
+  }
+  .aReason1 .aReason-num {
+    margin-bottom: 25px;
+  }
+  .aReason2 {
+    top: 335px;
+    left: 300px;
+  }
+  .aReason2 .aReason-num {
+    margin-top: 25px;
+  }
+  .aReason3 {
+    top: 65px;
+    left: 630px;
+  }
+  .aReason3 .aReason-num {
+    margin-bottom: 25px;
+  }
+  .aReason4 {
+    top: 320px;
+    left: 853px;
+  }
+  .aReason4 .aReason-num {
+    margin-top: 25px;
+  }
+  .mainContainer .three {
+    left: 535px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .way1 {
+    left: 600px;
+  }
+  .photo-galery .mainContainer .carousel-inner .one {
+    top: 51px;
+    left: 20px;
+  }
+  .photo-galery .mainContainer .carousel-inner .two {
+    left: 420px;
+    top: 0;
+  }
+  .photo-galery .mainContainer .carousel-inner .three {
+    display: none;
+  }
+  .photo-galery .mainContainer .carousel-inner .four {
+    right: 20px;
+    top: 0;
+  }
+  .photo-galery .mainContainer .carousel-inner .five {
+    left: 380px;
+    top: 204px;
+  }
+  .reasons-to-go .aReason-num {
+    width: 49px;
+    height: 49px;
+  }
+  .reasons-to-go .way2 svg {
+    display: none;
+  }
+  .reasons-to-go .way2 .svg-for-Mobile {
+    top: -32px;
+    display: block;
+    transform: scale(1.1) rotate(0deg);
+    left: calc(50% - 564px);
+  }
+  .reasons-box {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    top: 0;
+    width: 100%;
+  }
+  .reasons-box .aReason {
+    position: unset;
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mainContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-iceland .white-bg-square img {
+    max-width: 100%;
+  }
+  .tour-plan .mainContainer .white-bg-square {
+    width: 350px;
+    height: 400px;
+  }
+  .tour-plan .mainContainer .white-bg-square img {
+    left: 50px;
+    max-width: 100%;
+  }
+  .tour-plan .mainContainer .tour-program-item {
+    max-width: 400px;
+  }
+  .tour-plan .mainContainer .tour-program-item .tour-program-day {
+    margin-bottom: 30px;
+  }
+  .tour-plan .mainContainer .tour-program-item .tour-program-title {
+    margin-bottom: 15px;
+  }
+  .tour-program-download {
+    margin-top: 30px;
+  }
+  .amazing-places .white-bg-square img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1037px) {
+  .photo-galery .mainContainer .carousel-inner .one {
+    top: 51px;
+    left: 130px;
+  }
+  .photo-galery .mainContainer .carousel-inner .two {
+    display: none;
+  }
+  .photo-galery .mainContainer .carousel-inner .four {
+    right: 130px;
+    top: 0;
+  }
+  .photo-galery .mainContainer .carousel-inner .five {
+    display: none;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .review-slider .slider-container .review .reviewer-name {
+    margin-bottom: 24px;
+  }
+  .review-slider .slider-container .review .number-of-reviewer {
+    margin-bottom: 30px;
+  }
+  .review-slider .slider-container .review .reviewer-opinion {
+    max-width: 350px;
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  .review-slider .slider-container .review img {
+    max-height: 300px;
+    max-width: 300px;
+  }
+  .review-slider .slider__controls-review div {
+    padding: 16px;
+  }
+  .review-slider .slider__controls-review div svg {
+    width: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .reasons-to-go .way2 svg {
+    top: 4px;
+    position: relative;
+    left: calc(50% - 1206px);
+    transform: translate(1px, 1px) scale(1.6) rotate(-11deg);
+  }
+  .represent .mainContainer .title {
+    font-size: 50px;
+    margin-left: 29px;
+  }
+  .represent .mainContainer .under-title {
+    font-size: 30px;
+  }
+  .way1 {
+    left: 450px;
+    top: 180px;
+    z-index: -1;
+  }
+  .amazing-places .mainContainer .white-bg-square {
+    width: 300px;
+    height: 289px;
+  }
+  .amazing-places .mainContainer .white-bg-square img {
+    left: -50px;
+  }
+  .amazing-places .mainContainer .about-place-under-title {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .reasons-to-go .way2 svg {
+    top: 16px;
+    position: relative;
+    left: calc(50% - 1206px);
+    transform: translate(1px, 1px) scale(1.5) rotate(-11deg);
+  }
+  .about-iceland .white-bg-square {
+    width: 300px;
+    height: 350px;
+  }
+  .photo-galery .mainContainer .carousel-inner .one {
+    left: 30px;
+  }
+  .photo-galery .mainContainer .carousel-inner .four {
+    right: 30px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .burger-menu svg {
+    fill: #2c2c2c;
+  }
+  .amazing-places .mainContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tour-plan .mainContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .tour-plan .mainContainer .white-bg-square {
+    display: none;
+  }
+  .tour-plan .mainContainer .white-bg-square2 {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .tour-plan .mainContainer .tour-program-item {
+    max-width: 500px;
+    margin-bottom: 41px;
+  }
+  .tour-plan .mainContainer .tour-program-item .tour-program-day {
+    margin-bottom: 40px;
+  }
+  .tour-plan .mainContainer .tour-program-item .tour-program-title {
+    margin-bottom: 25px;
+  }
+  .tour-plan .mainContainer .slider__controls {
+    margin-top: 41px;
+  }
+  .tour-plan .mainContainer .tour-program-download {
+    margin-top: 41px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .represent {
+    background-image: url("../images/iceFirstBlock.png");
+    background-repeat: no-repeat;
+  }
+  .represent .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .represent .mainContainer .first-block-pic-bg {
+    display: none;
+  }
+  .represent .mainContainer .title {
+    color: #ffffff;
+    font-size: 30px;
+    order: 2;
+    margin-bottom: 109px;
+  }
+  .represent .mainContainer .to-watch-btn {
+    font-size: 15px;
+    order: 3;
+    margin-bottom: 280px;
+  }
+  .represent .mainContainer .to-watch-btn div {
+    padding: 15px;
+  }
+  .represent .mainContainer .for-book-btn {
+    order: 6;
+    float: unset;
+    margin: unset;
+    margin-top: 103px;
+  }
+  .represent .mainContainer .under-title {
+    order: 4;
+    margin-bottom: 109px;
+  }
+  .represent .mainContainer .way1 {
+    display: none;
+  }
+  .represent .mainContainer .way2FirstBlock {
+    display: block;
+    position: relative;
+    order: 5;
+    width: 100%;
+    height: 112px;
+    left: calc(50% - 155px);
+  }
+  .represent .mainContainer .way2FirstBlock .svg {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  .represent .mainContainer .way2FirstBlock .date {
+    max-width: 115px;
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: #2c2c2c;
+    line-height: 1.5;
+    position: absolute;
+    top: 125px;
+    left: 13px;
+    max-width: 200px;
+    text-align: left;
+  }
+  .represent .mainContainer .way2FirstBlock .price {
+    max-width: 115px;
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: #2c2c2c;
+    line-height: 1.5;
+    position: absolute;
+    top: -20px;
+    left: 76px;
+    max-width: 100px;
+    text-align: left;
+  }
+  .represent .mainContainer .way2FirstBlock .places-left {
+    max-width: 115px;
+    font-size: 14px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: #2c2c2c;
+    line-height: 1.5;
+    position: absolute;
+    top: -50px;
+    left: 236px;
+    max-width: 110px;
+    text-align: left;
+  }
+  .about-iceland .mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-iceland .iceland-title {
+    display: none;
+  }
+  .about-iceland .iceland-title.iceland-title2 {
+    display: block;
+    margin-bottom: 41px;
+  }
+  .about-iceland .white-bg-square {
+    margin-bottom: 35px;
+  }
+  .reasons-to-go .reason-title {
+    font-size: 25px;
+  }
+  .reasons-to-go .reason-title {
+    margin-bottom: 40px;
+  }
+  .reasons-to-go .reasons-box {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+    top: 0;
+  }
+  .reasons-to-go .reasons-box .aReason {
+    position: unset;
+    justify-self: center;
+    max-width: 241px;
+  }
+  .reviews .mainContainer {
+    max-width: 600px;
+    height: 100%;
+  }
+  .reviews .review-slider {
+    padding: 40px 13px;
+    max-height: 860px;
+  }
+  .reviews .review-slider .slider-container .review {
+    margin-bottom: unset;
+  }
+  .reviews .review-slider .slider-container .review .reviewer-opinion {
+    max-width: unset;
+    height: 210px;
+    margin-bottom: 24px;
+  }
+  .reviews .review-slider .slider-container .review img {
+    position: unset;
+    vertical-align: unset;
+    margin: unset;
+    margin-bottom: 68px;
+  }
+  .reviews .slider__controls-review {
+    position: unset;
+  }
+  .success-order {
+    width: 400px;
+    height: 421px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .photo-galery .mainContainer .carousel-inner .one {
+    left: 10px;
+  }
+  .photo-galery .mainContainer .carousel-inner .four {
+    right: 10px;
+  }
+  .travel-video img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .photo-galery .mainContainer .carousel-inner .one {
+    left: 0;
+    bottom: 0;
+  }
+  .photo-galery .mainContainer .carousel-inner .four {
+    display: none;
+  }
+  .photo-galery .mainContainer .carousel-inner .carousel-item .one {
+    text-align: center;
+    max-width: unset;
+    max-height: 430px;
+    left: unset;
+  }
+  .map img {
+    width: 290px;
+  }
+  .map span {
+    left: 150px;
+    top: 150px;
+  }
+  .map svg {
+    transform: scale(0.7);
+    left: 30px;
+    top: 60px;
+  }
+  .map div {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .map .map-point1 {
+    left: 43px;
+    top: 88px;
+  }
+  .map .map-point2 {
+    left: 76px;
+    top: 130px;
+  }
+  .map .map-point3 {
+    left: 61px;
+    top: 154px;
+  }
+  .map .map-point4 {
+    left: 57px;
+    top: 187px;
+  }
+  .map .activeMapPoint {
+    background-color: #00a8d2;
+    width: 26px;
+    height: 26px;
+  }
+  .map .map-point5 {
+    left: 114px;
+    top: 194px;
+  }
+  .travel-video img {
+    max-height: 500px;
+  }
+  .travel-video .iceland-video {
+    width: 1110px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer .mainContainer {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .about-iceland .mainContainer {
+    padding-left: 0;
+  }
+  .about-iceland .mainContainer .white-bg-square {
+    width: 231px;
+    height: 248px;
+  }
+  .about-iceland .mainContainer .white-bg-square img {
+    top: 42px;
+    width: 266px;
+    left: 25px;
+  }
+  .about-iceland .mainContainer .iceland-under-title {
+    margin-left: 15px;
+  }
+  .amazing-places .places-title {
+    font-size: 30px;
+    max-width: 270px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .amazing-places .map {
+    margin-bottom: 41px;
+  }
+  .about-iceland .white-bg-square {
+    width: 233px;
+    height: 261px;
+  }
+  .tour-plan .mainContainer .white-bg-square {
+    width: 245px;
+    height: 275px;
+  }
+  .tour-plan .mainContainer .white-bg-square img {
+    left: 50px;
+  }
+  .reviews .review-slider .slider-container .review img {
+    max-height: 264px;
+    max-width: 264px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 30px 0 21px 0;
+  }
+  .for-booking {
+    padding: 38px 0 80px 0;
+  }
+  .for-booking .for-booking-title {
+    font-size: 25px;
+    margin: 0 auto 35px auto;
+    max-width: 290px;
+  }
+  .for-booking .booking-journey {
+    max-width: 290px;
+  }
+  .for-booking .booking-journey .for-radio-inputs {
+    gap: 13px;
+  }
+  .for-booking .booking-journey .for-radio-inputs div {
+    width: 30px;
+    height: 30px;
+    font-size: 17.3px;
+  }
+  .for-booking .booking-journey .input-text {
+    padding: 15px;
+    width: 290px;
+  }
+  .for-booking .booking-journey button {
+    width: 290px;
+  }
+  .amazing-places .places-title {
+    font-size: 25px;
+  }
+  .amazing-places .mainContainer .white-bg-square {
+    width: 218px;
+    height: 211px;
+  }
+  .amazing-places .mainContainer .white-bg-square img {
+    max-width: 237px;
+    top: 22px;
+  }
+  .amazing-places .about-place .about-place-title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .amazing-places .about-place .about-place-under-title {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .header-menu.open ul {
+    margin-top: 150px;
+    gap: 50px;
+  }
+  .header-menu.open ul li a {
+    font-size: 30px;
+  }
+  .represent {
+    padding-bottom: 80px;
+  }
+  .represent .mainContainer .title {
+    margin: 55px 0 34px 0;
+  }
+  .represent .mainContainer .to-watch-btn {
+    margin: 0 0 440px 0;
+  }
+  .represent .mainContainer .under-title {
+    margin: 0 0 109px 0;
+  }
+  .success-order {
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 221px;
+    font-size: 15px;
+  }
+  .about-iceland {
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  .about-iceland .mainContainer .iceland-title2 {
+    font-size: 25px;
+  }
+  .reasons-to-go {
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .reasons-to-go .mainContainer .reason-title {
+    font-size: 25px;
+    max-width: 260px;
+  }
+  .amazing-places {
+    padding-bottom: 40px;
+    padding-top: 50px;
+  }
+  .tour-plan {
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+  .tour-plan .tour-plan-title {
+    margin-bottom: 40px;
+  }
+  .reviews {
+    padding-bottom: 40px;
+    padding-top: 50px;
+  }
+  .reviews .reviews-title {
+    margin-bottom: 40px;
+  }
+  .photo-galery {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .photo-galery .photo-galery-title {
+    margin-bottom: 36px;
+  }
+  .footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .travel-video {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .travel-video img {
+    height: 241px;
+  }
+  .travel-video .iceland-video {
+    height: 241px;
+  }
+  .travel-video .to-watch-btn {
+    font-size: 13px;
+    color: #ffffff;
+    max-width: 280px;
+  }
+  .travel-video {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .travel-video img {
+    height: 241px;
+  }
+  .travel-video .iceland-video {
+    height: 241px;
+  }
+  .travel-video .to-watch-btn {
+    font-size: 13px;
+    color: #ffffff;
+    max-width: 280px;
+  }
+  .travel-video .to-watch-btn div {
+    padding: 15px 14px 14px 17px;
+  }
+  .travel-video .to-watch-btn div svg {
+    width: 9px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .represent .mainContainer .to-watch-btn {
+    margin: 0 0 387px 0;
+  }
+}
+@media screen and (max-width: 352px) {
+  .represent .mainContainer .way2FirstBlock .places-left {
+    top: -70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .represent {
+    background-image: url("../images/iceBG.png");
+  }
+  .success-order {
+    width: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 221px;
+    font-size: 15px;
+  }
+}
