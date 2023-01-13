@@ -25,7 +25,7 @@ var autoSlide = setInterval(function () {
     }
     cycleItems();
     changingPicturesToNext()
-}, 2500);
+}, 4000);
 
 $('.next').click(function () {
     clearInterval(autoSlide);
